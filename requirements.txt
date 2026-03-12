@@ -1,0 +1,16 @@
+# Manipulação de requisições e downloads
+requests
+urllib3
+
+# Processamento de dados
+pyspark
+pandas
+
+# Engine para leitura/gravação Parquet
+pyarrow
+
+# Suporte Delta Lake (opcional)
+delta-spark
+
+# Utilitários
+python-dotenv
