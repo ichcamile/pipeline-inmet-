@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# --- Dados e Local Storage (MUITO IMPORTANTE) ---
+# Ignora a pasta de dados para não subir arquivos pesados do INMET
+data/
+# Caso você use arquivos temporários fora da pasta data
+*.csv
+*.zip
+*.json
+*.parquet
+
+# --- Spark / Hadoop ---
+# O Spark cria pastas de log e metadados locais
+.spark-warehouse/
+metastore_db/
+derby.log
+checkpoint/
+
+# --- macOS ---
+.DS_Store
+
+# --- VS Code ---
+.vscode/
